@@ -34,7 +34,7 @@ const lookup = {
 function rot13(encodedStr) {
   let decodedArr =""; 
 	  for(let i=0;i<encodedStr.length();i++){
-		  if(lookup[encodedStr(i)]==Undefined){
+		  if(lookup[encodedStr(i)]==undefined){
 			     decodedArr += encodedStr(i);
 		  }else{
 			      decodedArr +=lookup[encodedStr(i)];
