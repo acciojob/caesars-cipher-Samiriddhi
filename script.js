@@ -32,7 +32,7 @@ const lookup = {
 };
 
 function rot13(encodedStr) {
-  let decodedArr = []; 
+  let decodedArr =""; 
 	  for(let i=0;i<encodedStr.length();i++){
 		  if(lookup[encodedStr(i)]==Undefined){
 			     decodedArr += encodedStr(i);
@@ -40,9 +40,7 @@ function rot13(encodedStr) {
 			      decodedArr +=lookup[encodedStr(i)];
 		  }
 	  }
-
-	
-  return decodedArr; 
+      return decodedArr; 
    }
 
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
